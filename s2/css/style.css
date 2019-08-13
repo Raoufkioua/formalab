@@ -1,0 +1,87 @@
+p{
+
+color: yellowgreen;
+
+}
+
+
+.Titles{
+color: tomato;
+
+
+}
+#paragraph{
+
+
+    color:black;
+}
+
+.bleu {
+
+color:blue;
+
+
+}
+p.vert{
+
+color-interpolation-filters: auto;
+color: aquamarine;
+
+}
+
+.vt{
+    color: green;
+
+}
+.bord{
+border: 3px solid goldenrod
+
+}
+
+a{
+color: brown;
+text-decoration: none
+
+}
+
+a:hover{
+
+color: green;
+text-decoration: underline;
+
+
+}
+
+a:visited{
+    color: grey;
+}
+.style1{
+font-family: Arial, Helvetica, sans-serif;
+}
+.style2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    font-weight: bolder;
+    background-color: rgba(211, 219, 168, 0.4);
+    width: fit-content;
+    opacity: 0.63;
+}
+/*p{
+
+background: url("../images/kl.png");
+background-position: bottom left;
+
+}*/
+/*
+p{
+    border: 60px yellow dashed ;
+    border-radius:  50%;
+    
+}*/
+
+ul{
+list-style-image: url("../images/cercle.png");
+margin: 26%;
+padding: 26%;
+
+}

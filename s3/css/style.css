@@ -1,0 +1,15 @@
+.btnx {
+    color: white;
+    background: #007bff;
+    border-radius: 25%;
+    padding: 3px;
+    border: #007bff;
+}
+
+.btnx:hover {
+    background: white;
+    border-color: #007bff;
+    border: #007bff;
+}
+
+body{padding: 10px}

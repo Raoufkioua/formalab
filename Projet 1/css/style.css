@@ -1,0 +1,64 @@
+body {
+    background: url(../images/background.jpg)
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    max-width: 5%
+}
+
+a {
+    position: absolute;
+    right: 80px;
+    top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#lo {
+    position: absolute;
+    right: 255px;
+    top: 25px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#image {
+    position: absolute;
+    right: 950px
+}
+
+#para {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    right: 200px;
+    border-block-end-style: dashed;
+    width: 700px;
+    top: 200px
+}
+
+.titre {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 720px;
+    top: 90px
+}
+
+.titre1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+    
+}
+
+.bg{
+
+
+    background: url("../images/blur-colorful-colourful-21492.jpg")
+}

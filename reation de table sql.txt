@@ -1,0 +1,17 @@
+CREATE TABLE users (
+	iduser int AUTO_INCREMENT ,
+    nom varchar(50) NOT null,
+    prenom varchar(50) NOT null ,
+    age int , 
+    CONSTRAINT pk_users PRIMARY KEY (iduser)
+    
+    );
+    
+CREATE TABLE taches (
+	idtache int AUTO_INCREMENT,
+    titre varchar (100) not null UNIQUE,
+    description varchar(100) not null ,
+    iduser int not null ,
+    CONSTRAINT pk_taches PRIMARY KEY(idtache),
+    CONSTRAINT fk_tahes_users FOREIGN KEY (iduser) REFERENCES users (iduser)
+);

@@ -46,7 +46,7 @@ $this.$age->$a;
     }
 public static function updateUser(){
     $base = Connextion::connect();
-    $req = "update users set nom =  where iduser = $this->id";
+    $req = "update users set nom   where iduser = $this->id";
     $res = $base->exec($req);
 
 
@@ -60,6 +60,21 @@ public static function updateUser(){
         $req = "select * from users";
         $res = $base->query($req);
         return $res;
+    }
+
+    public static function readone($id)
+    {
+
+        $base = Connextion::connect();
+        $req = "select * from users where iduser = $id ";
+        $res = $base->query($req);
+        
+        return $res;
+        
+
+
+
+
     }
 
 
